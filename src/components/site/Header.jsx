@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Wind } from "lucide-react";
 import { siteConfig, WHATSAPP_DEFAULT_URL } from "@/lib/siteConfig";
 import WhatsAppIcon from "./WhatsAppIcon";
+import imageLogo from "@/assets/imageLogo.png";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -54,7 +55,7 @@ export default function Header() {
               }}
               className="flex items-center gap-2.5 shrink-0"
             >
-              <span
+              {/* <span
                 className="grid h-9 w-9 place-items-center rounded-lg"
                 style={{
                   background: scrolled
@@ -67,12 +68,13 @@ export default function Header() {
                   style={{ color: "hsl(194 77% 62%)" }}
                   strokeWidth={2.4}
                 />
-              </span>
+              </span> */}
+              <img src={imageLogo} alt="Trd Ar Condicionado" className="h-10 w-10" />
               <span
                 className="font-heading font-extrabold tracking-tight text-lg"
-                style={{ color: scrolled ? "hsl(207 72% 16%)" : "#fff" }}
+                style={{ color: scrolled ? "#0090E0" : "#fff" }}
               >
-                Thermal<span style={{ color: "hsl(194 77% 62%)" }}>Pro</span>
+                Trd <span style={{ color: scrolled ? "#F07010" : "#fff" }}>Ar Condicionado</span>
               </span>
             </a>
 
