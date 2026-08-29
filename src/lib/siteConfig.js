@@ -4,8 +4,8 @@
 
 export const siteConfig = {
   company: {
-    name: "ThermalPro",
-    fullName: "ThermalPro Climatização",
+    name: "TRD",
+    fullName: "TRD Climatização",
     tagline: "Climatização profissional para quem não pode depender de improvisos.",
     shortDescription:
       "Projetamos, instalamos e cuidamos de sistemas de climatização para residências, empresas e operações que precisam de desempenho, segurança e acabamento profissional.",
@@ -15,15 +15,15 @@ export const siteConfig = {
   whatsapp: "5511999999999", // formato: 55 + DDD + número (somente dígitos)
   phone: "+55 (11) 99999-9999",
   phoneHref: "+5511999999999",
-  email: "contato@thermalpro.com.br",
+  email: "contato@TRD.com.br",
   address: {
     street: "Av. Paulista, 1000 — Sala 120",
-    city: "São Paulo",
+    city: "Londrina",
     state: "SP",
     zip: "01310-100",
-    full: "Av. Paulista, 1000 — Sala 120, São Paulo — SP",
+    full: "Av. Paulista, 1000 — Sala 120, Londrina — SP",
   },
-  serviceArea: "São Paulo e região metropolitana",
+  serviceArea: "Londrina e região metropolitana",
   openingHours: "Seg–Sex: 08h às 18h · Sáb: 08h às 12h",
 
   // Redes sociais
